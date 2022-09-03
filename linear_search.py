@@ -8,6 +8,9 @@ def linear_search(list,target):
     return None
 
 def verify(index):
+    """
+        Just to verify if Everything works Correctly
+    """
     if index is not None:
         print("Target found at index:",index)
     else:
