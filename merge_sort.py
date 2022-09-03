@@ -61,6 +61,9 @@ def merge(left, right):
 
 
 def verify_sorted(list):
+    """
+    To verify if the sorting was done correctly
+    """
     n = len(list)
 
     if n == 0 or n == 1:
