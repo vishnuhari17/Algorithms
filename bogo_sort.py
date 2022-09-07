@@ -50,5 +50,9 @@ def is_sorted(values):
     Since  all the values are sorted,we can return True"""
     return True
 
+def bogo_sort(values):
+    while not is_sorted(values):
+        random.shuffle(values)
+    return values
 
-
+print(bogo_sort(numbers))
