@@ -21,5 +21,19 @@ numbers = load_numbers(sys.argv[1])
 
 """
 Bogosort just randomly rearranges the list of values over and over,
-so the first thing it's going"""
+so the first thing it's going to need is a function to detect whether
+the list is sorted. We'll write an is_sorted functon that takes a
+list of values as a parameter. It will return True if the list
+passsed in is sorted, or False if it isn't.
+"""
+def is_sorted(values):
+    """
+    We'll loop through the numeric index of each value in the list
+    from 0 to one less than the length of the list. Like many
+    languages, Python list indexes begin at 0, so a list with a
+    length of 5 has indexes going from 0 through 4.
+    """
+    for index in range(len(values) - 1):
+        """
+        If the list is sorted,then every value """
 
