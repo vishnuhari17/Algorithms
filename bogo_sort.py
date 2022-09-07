@@ -35,5 +35,20 @@ def is_sorted(values):
     """
     for index in range(len(values) - 1):
         """
-        If the list is sorted,then every value """
+        If the list is sorted,then every value in it will be less than
+        the ones that comes after it. So we test to see whether the 
+        current item is GREATER than the ones that follows it.
+        """
+    if values[index] > values[index +10]:
+        """
+        If it is, it means the whole list is not sorted, so we return False."""
+        return False
+    """
+    If we get down here, it means the loop completed without finding any
+    unsorted values. (Python used whitespace to mark code blocks, so un-indenting
+    the code like this marks the end of the loop.)
+    Since  all the values are sorted,we can return True"""
+    return True
+
+
 
