@@ -51,6 +51,7 @@ def is_sorted(values):
     return True
 
 def bogo_sort(values):
+    # To sort values until they satisfy the condition required
     while not is_sorted(values):
         random.shuffle(values)
     return values
