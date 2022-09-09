@@ -54,6 +54,7 @@ def bogo_sort(values):
     # To sort values until they satisfy the condition required
     while not is_sorted(values):
         random.shuffle(values)
+        # When it satisfies the condition the while loop ends
     return values
 
 print(bogo_sort(numbers))
