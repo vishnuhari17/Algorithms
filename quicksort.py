@@ -3,6 +3,7 @@ from load import load_numbers
 numbers = load_numbers(sys.argv[1])
 
 def quicksort(values):
+    # Faster than bogo sort
     if len(values) <= 1:
         return values
     less_than_pivot = []
