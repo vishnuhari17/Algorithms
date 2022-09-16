@@ -1,6 +1,6 @@
 def merge_sort(list):
     """
-    Sorts a list in ascending order
+    Sorts a list in ascending order3
     Returns a new sorted list
 
     Divide: Find the Midpoint of the list and divide into sublists
@@ -27,6 +27,7 @@ def split(list):
 
     Takes 0(log n) time
     """
+
 
     mid = len(list)//2
     left = list[:mid]
