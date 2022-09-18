@@ -20,6 +20,7 @@ def merge_sort(linked_list):
     return merge(left, right)
 
 def split(linked_list):
+
     """
     Divide the unsorted list at midpoint into sublists
     """
