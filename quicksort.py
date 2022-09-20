@@ -1,6 +1,7 @@
 import sys
 from load import load_numbers
 numbers = load_numbers(sys.argv[1])
+# The above code is just to load the data for the program
 
 def quicksort(values):
     # Faster than bogo sort
