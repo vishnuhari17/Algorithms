@@ -20,6 +20,8 @@ def merge_sort(list):
     return merge(left, right)
 
 
+
+
 def split(list):
     """
     Divide the unsorted list at midpoint into sublists
